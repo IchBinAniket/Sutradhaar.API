@@ -2,8 +2,6 @@
 {
     public class TicketBooking
     {
-        public class Ticket
-        {
             public int Id { get; set; }
             public required string PassengerName { get; set; }   
             public required string Source { get; set; }
@@ -27,7 +25,6 @@
             // Payment
             public decimal TotalFare { get; set; }
             public string? PaymentStatus { get; set; }   
-        }
 
     }
 }
